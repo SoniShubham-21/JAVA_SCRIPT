@@ -1,21 +1,13 @@
-// Arithmetic Operators
-let a= 10;
-let b=5;
-console.log(a+b);
-console.log(a-b);
-console.log(a*b);
-console.log(a/b);
-console.log(a%b);
-console.log(a**b)
-
-// Unary Operators
-let g=10;
-console.log(g);
-console.log("Increment");
-console.log(g++);
-console.log(g);
-
-// Assignment operators
-let h=5;
-h+=2;
-console.log(h)
+let size="S"
+if(size === "XL"){
+    console.log("Price is Rs 250");
+}
+else if(size === "L"){
+    console.log("price is 200");
+}
+else if(size==="M"){
+    console.log("price is 100");
+}
+else {
+    console.log("price is 50");
+}
