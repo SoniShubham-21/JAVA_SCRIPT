@@ -1,13 +1,7 @@
-let size="S"
-if(size === "XL"){
-    console.log("Price is Rs 250");
+a=prompt("Enter a number")
+if(a%10==0){
+    console.log("good")
 }
-else if(size === "L"){
-    console.log("price is 200");
-}
-else if(size==="M"){
-    console.log("price is 100");
-}
-else {
-    console.log("price is 50");
+else{
+    console.log("bad")
 }
