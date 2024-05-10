@@ -1,7 +1,11 @@
 const username="javascript";
 let entered = prompt("Enter the UserName to login or Enter quit to exit");
 
-while((entered != username) && (entered != "quit")){
+while(entered != username){
+    if(entered=="quit"){
+        console.log("you pressed quit");
+        break;
+    }
     confirm("Wrong UserName Please Input it again");
     entered=prompt("Enter Username Again"); 
     }
