@@ -1,6 +1,14 @@
-alert("You have to fill some detail's");
-confirm("DO you want to continue")
-a=prompt("Enter your Name");
-b=prompt("Enter your Roll number");
-alert(`Hi Welcome to our website ${a} and Your roll no is ${b}`)
+const username="javascript";
+let entered = prompt("Enter the UserName to login or Enter quit to exit");
 
+while((entered != username) && (entered != "quit")){
+    confirm("Wrong UserName Please Input it again");
+    entered=prompt("Enter Username Again"); 
+    }
+
+if(entered == username){
+console.log("Welcome to your Website the username for this webpage is : ",username);
+}
+else{
+    console.log("You Entered Quit")
+}
