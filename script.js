@@ -1,12 +1,8 @@
-const student={
-    name: "shubham",
-    age: 23,
-    eng: 25,
-    math: 45,
-    phy: 63,
-    getAvg(){
-        let avg1=(this.eng+this.math+this.phy)/3;
-        console.log(avg1);
-    }
+let a =10;
+console.log("hello")
+try{
+    console.log(A)
+} catch(Error){
+    console.log("Error in this section")
+    console.log(Error)
 }
-student.getAvg()
