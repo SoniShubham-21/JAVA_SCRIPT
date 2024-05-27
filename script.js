@@ -1,6 +1,7 @@
-console.log("hi there !");
-let id = setInterval(()=> {
+let id = setInterval( ()=> {
     console.log("Shubham");
 },2000);
-console.log("welcome to");
-console.log(id)
+setTimeout( () =>{
+    clearInterval(id);
+    console.log("SetTimeout ran");
+},10000);
