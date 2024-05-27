@@ -1,8 +1,6 @@
-let a =10;
-console.log("hello")
-try{
-    console.log(A)
-} catch(Error){
-    console.log("Error in this section")
-    console.log(Error)
-}
+console.log("hi there !");
+let id = setInterval(()=> {
+    console.log("Shubham");
+},2000);
+console.log("welcome to");
+console.log(id)
